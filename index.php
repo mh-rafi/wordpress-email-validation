@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Email Validation by emaillistverify
-Description: Validates the email address using EmailListVerify during user registration, and prevents registration if invalid.
+Description: Validates the email address using emaillistverify.com during user registration, and prevents registration if invalid.
 Version: 1.3
 Author: Mahmudul Hasan Rafi
 Plugin URI: https://github.com/mh-rafi/wordpress-email-validation
@@ -120,7 +120,7 @@ function emaillistverify_settings_page_content() {
             </table>
             <?php submit_button('Save API Key'); ?>
         </form>
-        <p>This plugin validates the email address using EmailListVerify during user registration, and prevents registration if invalid.</p>
+        <p>Get your api key from <a href="https://www.emaillistverify.com">emaillistverify</a></p>
     </div>
     <?php
 }
